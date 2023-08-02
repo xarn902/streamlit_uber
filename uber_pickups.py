@@ -15,6 +15,10 @@ def load_data(nrows):
     return data
 
 
+st.set_page_config(
+    page_title = 'Uber Pickups',
+    page_icon = '🚗'
+)
 st.title('Uber pickups in NYC')
 
 
